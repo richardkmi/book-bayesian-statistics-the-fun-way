@@ -3,3 +3,11 @@
 .RData
 .Ruserdata
 *.Rproj
+
+/.quarto/
+*.css
+*.woff
+*.js
+*.html
+*.json
+references.bib
