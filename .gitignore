@@ -5,3 +5,6 @@
 *.Rproj
 .quarto/
 
+
+/.quarto/
+.DS_Store

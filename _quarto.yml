@@ -3,20 +3,14 @@ project:
   output-dir: docs
 
 book:
-  title: "bayesian-statistics-the-fun-way"
+  title: "quarto_book_asdf"
   author: "Norah Jones"
-  date: "4/23/2023"
+  date: "4/30/2023"
   chapters:
-      - index.qmd
-      - intro.qmd
-      - summary.qmd
-      - references.qmd
-      - part: part_1.qmd
-        chapters:
-          - index.qmd
-          - intro.qmd
-  
-
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
 
 bibliography: references.bib
 
