@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "quarto_book_asdf",
+    "title": "Bayesian Statistics The Fun Way",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Book\nBayesian Statistics The Fun Way"
   },
   {
     "objectID": "intro.html",
@@ -26,5 +26,19 @@
     "title": "References",
     "section": "",
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "test.html#zoop",
+    "href": "test.html#zoop",
+    "title": "3  hello",
+    "section": "3.1 zoop",
+    "text": "3.1 zoop"
+  },
+  {
+    "objectID": "chapter_1.html",
+    "href": "chapter_1.html",
+    "title": "Bayesian Statistics The Fun Way",
+    "section": "",
+    "text": "Rewrite the following statements as equations using the mathematical notation you learned in this chapter:\n• The probability of rain is low\n• The probability of rain given that it is cloudy is high\n• The probability of you having an umbrella given it is raining is much greater than the probability of you having an umbrella in general.\nBayesian Thinking and Everyday Reasoning 11\n12 Chapter 1\n2. Organize the data you observe in the following scenario into a math- ematical notation, using the techniques we’ve covered in this chapter. Then come up with a hypothesis to explain this data:\nYou come home from work and notice that your front door is open and the side window is broken. As you walk inside, you immediately notice that your laptop is missing.\n3. The following scenario adds data to the previous one. Demonstrate how this new information changes your beliefs and come up with a second hypothesis to explain the data, using the notation you’ve learned in\nthis chapter.\nA neighborhood child runs up to you and apologizes profusely for accidentally throwing a rock through your window. They claim that they saw the laptop and didn’t want it stolen so they opened the front door to grab it, and your laptop is safe at their house."
   }
 ]
