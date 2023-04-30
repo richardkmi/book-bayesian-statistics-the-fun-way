@@ -1,5 +1,7 @@
 # Bayesian Thinking and Everyday Reasoning
 
+## Questions
+
 1.  Rewrite the following statements as equations using the mathematical notation you learned in this chapter:
 
 >  • The probability of rain is low
@@ -14,10 +16,20 @@ $P(rain|cloud) = high$
 
 $P(umbrella|rain) >> P(umbrella)$
 
-2. Organize the data you observe in the following scenario into a math- ematical notation, using the techniques we've covered in this chapter. Then come up with a hypothesis to explain this data:
+2. Organize the data you observe in the following scenario into a mathematical notation, using the techniques we've covered in this chapter. Then come up with a hypothesis to explain this data:
 
 > You come home from work and notice that your front door is open and the side window is broken. As you walk inside, you immediately notice that your laptop is missing.
+
+$D = \text{door open, window broken, laptop missing}$
+
+$H_1 = \text{you've been robbed}$
+
+$P(D|H_1)$
 
 3. The following scenario adds data to the previous one. Demonstrate how this new information changes your beliefs and come up with a second hypothesis to explain the data, using the notation you've learned in this chapter.
 
 > A neighborhood child runs up to you and apologizes profusely for accidentally throwing a rock through your window. They claim that they saw the laptop and didn't want it stolen so they opened the front door to grab it, and your laptop is safe at their house.
+
+$H_2 = \text{child accidentally broke your window and took the laptop for safekeeping}$
+
+$P(H_2| D) >> P(H_1|D)$

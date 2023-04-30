@@ -130,7 +130,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#questions" id="toc-questions" class="nav-link active" data-scroll-target="#questions"><span class="header-section-number">1.1</span> Questions</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -152,6 +158,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="questions" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="questions"><span class="header-section-number">1.1</span> Questions</h2>
 <ol type="1">
 <li>Rewrite the following statements as equations using the mathematical notation you learned in this chapter:</li>
 </ol>
@@ -168,19 +176,25 @@ ul.task-list li input[type="checkbox"] {
 </blockquote>
 <p><span class="math inline">\(P(umbrella|rain) &gt;&gt; P(umbrella)\)</span></p>
 <ol start="2" type="1">
-<li>Organize the data you observe in the following scenario into a math- ematical notation, using the techniques we’ve covered in this chapter. Then come up with a hypothesis to explain this data:</li>
+<li>Organize the data you observe in the following scenario into a mathematical notation, using the techniques we’ve covered in this chapter. Then come up with a hypothesis to explain this data:</li>
 </ol>
 <blockquote class="blockquote">
 <p>You come home from work and notice that your front door is open and the side window is broken. As you walk inside, you immediately notice that your laptop is missing.</p>
 </blockquote>
+<p><span class="math inline">\(D = \text{door open, window broken, laptop missing}\)</span></p>
+<p><span class="math inline">\(H_1 = \text{you've been robbed}\)</span></p>
+<p><span class="math inline">\(P(D|H_1)\)</span></p>
 <ol start="3" type="1">
 <li>The following scenario adds data to the previous one. Demonstrate how this new information changes your beliefs and come up with a second hypothesis to explain the data, using the notation you’ve learned in this chapter.</li>
 </ol>
 <blockquote class="blockquote">
 <p>A neighborhood child runs up to you and apologizes profusely for accidentally throwing a rock through your window. They claim that they saw the laptop and didn’t want it stolen so they opened the front door to grab it, and your laptop is safe at their house.</p>
 </blockquote>
+<p><span class="math inline">\(H_2 = \text{child accidentally broke your window and took the laptop for safekeeping}\)</span></p>
+<p><span class="math inline">\(P(H_2| D) &gt;&gt; P(H_1|D)\)</span></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
