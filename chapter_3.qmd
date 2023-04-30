@@ -1,1 +1,8 @@
 # Three
+
+```{mermaid}
+
+flowchart TD
+    A[Ahhhhh] -->|Get money| B(Beeeeee)
+
+```
