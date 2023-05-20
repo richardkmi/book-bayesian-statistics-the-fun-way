@@ -7,41 +7,6 @@
     "text": "Book\nBayesian Statistics The Fun Way"
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "test.html#zoop",
-    "href": "test.html#zoop",
-    "title": "3  hello",
-    "section": "3.1 zoop",
-    "text": "3.1 zoop"
-  },
-  {
-    "objectID": "chapter_1.html",
-    "href": "chapter_1.html",
-    "title": "1  Bayesian Thinking and Everyday Reasoning",
-    "section": "",
-    "text": "Rewrite the following statements as equations using the mathematical notation you learned in this chapter:\n\n\n• The probability of rain is low\n\n\\(P(rain) = low\\)\n\n• The probability of rain given that it is cloudy is high\n\n\\(P(rain|cloud) = high\\)\n\n• The probability of you having an umbrella given it is raining is much greater than the probability of you having an umbrella in general.\n\n\\(P(umbrella|rain) &gt;&gt; P(umbrella)\\)\n\nOrganize the data you observe in the following scenario into a math- ematical notation, using the techniques we’ve covered in this chapter. Then come up with a hypothesis to explain this data:\n\n\nYou come home from work and notice that your front door is open and the side window is broken. As you walk inside, you immediately notice that your laptop is missing.\n\n\nThe following scenario adds data to the previous one. Demonstrate how this new information changes your beliefs and come up with a second hypothesis to explain the data, using the notation you’ve learned in this chapter.\n\n\nA neighborhood child runs up to you and apologizes profusely for accidentally throwing a rock through your window. They claim that they saw the laptop and didn’t want it stolen so they opened the front door to grab it, and your laptop is safe at their house."
-  },
-  {
     "objectID": "chapter_1.html#questions",
     "href": "chapter_1.html#questions",
     "title": "1  Bayesian Thinking and Everyday Reasoning",

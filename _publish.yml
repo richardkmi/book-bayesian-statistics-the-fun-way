@@ -1,0 +1,6 @@
+- source: project
+  quarto-pub:
+    - id: 876b356a-e8be-42ef-9305-25f8f2332640
+      url: 'https://richardkmi.quarto.pub/bayesian-statistics-the-fun-way'
+    - id: 96e7e8b0-6b78-4887-8f80-6010d849e4c3
+      url: 'https://mrkmieciak.quarto.pub/bayesian-statistics-the-fun-way'
