@@ -1,0 +1,28 @@
+{
+    "id": "35DCFAFD",
+    "path": "~/Development/book-bayesian-statistics-the-fun-way/chapter_1.qmd",
+    "project_path": "chapter_1.qmd",
+    "type": "quarto_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1684597664494.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualModeLocation": "2:0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1684597609,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1684597609,
+    "read_only": false,
+    "read_only_alternatives": []
+}
