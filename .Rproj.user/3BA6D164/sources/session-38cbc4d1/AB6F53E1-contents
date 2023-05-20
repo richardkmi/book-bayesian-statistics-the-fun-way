@@ -1,0 +1,48 @@
+# Logic of Uncertainty
+
+## Questions
+
+1\. What is the probability of rolling a 20 three times in a row on a 20-sided die?
+
+```{python}
+
+from sympy import *
+
+Rational(1,20) ** 3
+```
+
+2\. The weather report says there's a 10 percent chance of rain tomor- row, and you forget your umbrella half the time you go out. What is the probability that you'll be caught in the rain without an umbrella tomorrow?
+
+```{python}
+
+round(Rational(1/10) * Rational(1/2),2)
+
+```
+
+3\. Raw eggs have a 1/20,000 probability of having salmonella. If you eat two raw eggs, what is the probability you ate a raw egg with salmonella?
+
+```{python}
+
+p_salmonella = Rational(1/20000)
+p_either = p_salmonella * 2
+p_both = p_salmonella ** 2
+round(p_either - p_both,4)
+```
+
+4\. What is the probability of either flipping two heads in two coin tosses or rolling three 6s in three six-sided dice rolls?
+
+```{python}
+
+p_heads = Rational(1,2)
+p_two_heads = p_heads ** 2
+
+p_six = Rational(1,6)
+p_three_six = p_six ** 3
+
+p_three_six_or_two_heads = p_two_heads + p_three_six
+p_three_six_and_two_heads = p_two_heads * p_three_six
+
+round(p_three_six_or_two_heads - p_three_six_and_two_heads,4)
+
+
+```

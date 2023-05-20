@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Bayesian Statistics The Fun Way"
+  author: "Will Kurt"
+  date: "4/30/2023"
+  chapters:
+    - index.qmd
+    - chapter_1.qmd
+    - chapter_2.qmd
+    - chapter_3.qmd
+    - chapter_4.qmd
+
+
+format:
+  html:
+    theme: cosmo
+    code-overflow: wrap
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
