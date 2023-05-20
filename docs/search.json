@@ -32,6 +32,13 @@
     "href": "chapter_3.html#questions",
     "title": "3  Logic of Uncertainty",
     "section": "3.1 Questions",
-    "text": "3.1 Questions\n1. What is the probability of rolling a 20 three times in a row on a 20-sided die?\n\nfrom sympy import *\n\nresult = Rational(1,20) ** 3\nresult\n\n\\(\\displaystyle \\frac{1}{8000}\\)\n\n\n2. The weather report says there’s a 10 percent chance of rain tomor- row, and you forget your umbrella half the time you go out. What is the probability that you’ll be caught in the rain without an umbrella tomorrow?\n3. Raw eggs have a 1/20,000 probability of having salmonella. If you eat two raw eggs, what is the probability you ate a raw egg with salmonella?\n4. What is the probability of either flipping two heads in two coin tosses or rolling three 6s in three six-sided dice rolls?"
+    "text": "3.1 Questions\n1. What is the probability of rolling a 20 three times in a row on a 20-sided die?\n\nfrom sympy import *\n\nRational(1,20) ** 3\n\n\\(\\displaystyle \\frac{1}{8000}\\)\n\n\n2. The weather report says there’s a 10 percent chance of rain tomor- row, and you forget your umbrella half the time you go out. What is the probability that you’ll be caught in the rain without an umbrella tomorrow?\n\nround(Rational(1/10) * Rational(1/2),2)\n\n\\(\\displaystyle 0.05\\)\n\n\n3. Raw eggs have a 1/20,000 probability of having salmonella. If you eat two raw eggs, what is the probability you ate a raw egg with salmonella?\n\np_salmonella = Rational(1/20000)\np_either = p_salmonella * 2\np_both = p_salmonella ** 2\nround(p_either - p_both,4)\n\n\\(\\displaystyle 0.0001\\)\n\n\n4. What is the probability of either flipping two heads in two coin tosses or rolling three 6s in three six-sided dice rolls?\n\np_heads = Rational(1,2)\np_two_heads = p_heads ** 2\n\np_six = Rational(1,6)\np_three_six = p_six ** 3\n\np_three_six_or_two_heads = p_two_heads + p_three_six\np_three_six_and_two_heads = p_two_heads * p_three_six\n\nround(p_three_six_or_two_heads - p_three_six_and_two_heads,4)\n\n\\(\\displaystyle 0.2535\\)"
+  },
+  {
+    "objectID": "chapter_4.html",
+    "href": "chapter_4.html",
+    "title": "Bayesian Statistics The Fun Way",
+    "section": "",
+    "text": "Chapter 4"
   }
 ]
