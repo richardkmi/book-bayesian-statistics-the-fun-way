@@ -15,7 +15,6 @@ prob = len([roll for roll in sample_space if event.subs({x: roll[0], y: roll[1]}
 print(f"{round(prob,4) * 100}%")
 ```
 
-
 2.  What is the probability of rolling three six-sided dice and getting a value greater than 7?
 
 ```{python}
@@ -27,7 +26,6 @@ prob = len([roll for roll in sample_space if event.subs({x: roll[0], y: roll[1],
 
 print(f"{round(prob,4) * 100}%")
 ```
-
 
 3.  The Yankees are playing the Red Sox. You're a diehard Sox fan and bet your friend they'll win the game. You'll pay your friend \$30 if the Sox lose and your friend will have to pay you only \$5 if the Sox win. What is the probability you have intuitively assigned to the belief that the Red Sox will win?
 
