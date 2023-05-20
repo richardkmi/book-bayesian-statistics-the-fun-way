@@ -174,7 +174,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#questions" id="toc-questions" class="nav-link active" data-scroll-target="#questions"><span class="header-section-number">3.1</span> Questions</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link active" data-scroll-target="#questions"><span class="header-section-number">3.1</span> Questions</a>
+  <ul class="collapse">
+  <li><a href="#what-is-the-probability-of-rolling-a-20-three-times-in-a-row-on-a-20-sided-die" id="toc-what-is-the-probability-of-rolling-a-20-three-times-in-a-row-on-a-20-sided-die" class="nav-link" data-scroll-target="#what-is-the-probability-of-rolling-a-20-three-times-in-a-row-on-a-20-sided-die"><span class="header-section-number">3.1.1</span> What is the probability of rolling a 20 three times in a row on a 20-sided die?</a></li>
+  <li><a href="#the-weather-report-says-theres-a-10-percent-chance-of-rain-tomorrow-and-you-forget-your-umbrella-half-the-time-you-go-out.-what-is-the-probability-that-youll-be-caught-in-the-rain-without-an-umbrella-tomorrow" id="toc-the-weather-report-says-theres-a-10-percent-chance-of-rain-tomorrow-and-you-forget-your-umbrella-half-the-time-you-go-out.-what-is-the-probability-that-youll-be-caught-in-the-rain-without-an-umbrella-tomorrow" class="nav-link" data-scroll-target="#the-weather-report-says-theres-a-10-percent-chance-of-rain-tomorrow-and-you-forget-your-umbrella-half-the-time-you-go-out.-what-is-the-probability-that-youll-be-caught-in-the-rain-without-an-umbrella-tomorrow"><span class="header-section-number">3.1.2</span> The weather report says there’s a 10 percent chance of rain tomorrow, and you forget your umbrella half the time you go out. What is the probability that you’ll be caught in the rain without an umbrella tomorrow?</a></li>
+  <li><a href="#raw-eggs-have-a-120000-probability-of-having-salmonella.-if-you-eat-two-raw-eggs-what-is-the-probability-you-ate-a-raw-egg-with-salmonella" id="toc-raw-eggs-have-a-120000-probability-of-having-salmonella.-if-you-eat-two-raw-eggs-what-is-the-probability-you-ate-a-raw-egg-with-salmonella" class="nav-link" data-scroll-target="#raw-eggs-have-a-120000-probability-of-having-salmonella.-if-you-eat-two-raw-eggs-what-is-the-probability-you-ate-a-raw-egg-with-salmonella"><span class="header-section-number">3.1.3</span> Raw eggs have a 1/20,000 probability of having salmonella. If you eat two raw eggs, what is the probability you ate a raw egg with salmonella?</a></li>
+  <li><a href="#what-is-the-probability-of-either-flipping-two-heads-in-two-coin-tosses-or-rolling-three-6s-in-three-six-sided-dice-rolls" id="toc-what-is-the-probability-of-either-flipping-two-heads-in-two-coin-tosses-or-rolling-three-6s-in-three-six-sided-dice-rolls" class="nav-link" data-scroll-target="#what-is-the-probability-of-either-flipping-two-heads-in-two-coin-tosses-or-rolling-three-6s-in-three-six-sided-dice-rolls"><span class="header-section-number">3.1.4</span> What is the probability of either flipping two heads in two coin tosses or rolling three 6s in three six-sided dice rolls?</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -200,7 +206,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="questions" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="questions"><span class="header-section-number">3.1</span> Questions</h2>
-<p>1. What is the probability of rolling a 20 three times in a row on a 20-sided die?</p>
+<section id="what-is-the-probability-of-rolling-a-20-three-times-in-a-row-on-a-20-sided-die" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="what-is-the-probability-of-rolling-a-20-three-times-in-a-row-on-a-20-sided-die"><span class="header-section-number">3.1.1</span> What is the probability of rolling a 20 three times in a row on a 20-sided die?</h3>
 <div class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sympy <span class="im">import</span> <span class="op">*</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -209,14 +216,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><span class="math inline">\(\displaystyle \frac{1}{8000}\)</span></p>
 </div>
 </div>
-<p>2. The weather report says there’s a 10 percent chance of rain tomor- row, and you forget your umbrella half the time you go out. What is the probability that you’ll be caught in the rain without an umbrella tomorrow?</p>
+</section>
+<section id="the-weather-report-says-theres-a-10-percent-chance-of-rain-tomorrow-and-you-forget-your-umbrella-half-the-time-you-go-out.-what-is-the-probability-that-youll-be-caught-in-the-rain-without-an-umbrella-tomorrow" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="the-weather-report-says-theres-a-10-percent-chance-of-rain-tomorrow-and-you-forget-your-umbrella-half-the-time-you-go-out.-what-is-the-probability-that-youll-be-caught-in-the-rain-without-an-umbrella-tomorrow"><span class="header-section-number">3.1.2</span> The weather report says there’s a 10 percent chance of rain tomorrow, and you forget your umbrella half the time you go out. What is the probability that you’ll be caught in the rain without an umbrella tomorrow?</h3>
 <div class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">round</span>(Rational(<span class="dv">1</span><span class="op">/</span><span class="dv">10</span>) <span class="op">*</span> Rational(<span class="dv">1</span><span class="op">/</span><span class="dv">2</span>),<span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="2">
 <p><span class="math inline">\(\displaystyle 0.05\)</span></p>
 </div>
 </div>
-<p>3. Raw eggs have a 1/20,000 probability of having salmonella. If you eat two raw eggs, what is the probability you ate a raw egg with salmonella?</p>
+</section>
+<section id="raw-eggs-have-a-120000-probability-of-having-salmonella.-if-you-eat-two-raw-eggs-what-is-the-probability-you-ate-a-raw-egg-with-salmonella" class="level3" data-number="3.1.3">
+<h3 data-number="3.1.3" class="anchored" data-anchor-id="raw-eggs-have-a-120000-probability-of-having-salmonella.-if-you-eat-two-raw-eggs-what-is-the-probability-you-ate-a-raw-egg-with-salmonella"><span class="header-section-number">3.1.3</span> Raw eggs have a 1/20,000 probability of having salmonella. If you eat two raw eggs, what is the probability you ate a raw egg with salmonella?</h3>
 <div class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>p_salmonella <span class="op">=</span> Rational(<span class="dv">1</span><span class="op">/</span><span class="dv">20000</span>)</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>p_either <span class="op">=</span> p_salmonella <span class="op">*</span> <span class="dv">2</span></span>
@@ -226,7 +237,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><span class="math inline">\(\displaystyle 0.0001\)</span></p>
 </div>
 </div>
-<p>4. What is the probability of either flipping two heads in two coin tosses or rolling three 6s in three six-sided dice rolls?</p>
+</section>
+<section id="what-is-the-probability-of-either-flipping-two-heads-in-two-coin-tosses-or-rolling-three-6s-in-three-six-sided-dice-rolls" class="level3" data-number="3.1.4">
+<h3 data-number="3.1.4" class="anchored" data-anchor-id="what-is-the-probability-of-either-flipping-two-heads-in-two-coin-tosses-or-rolling-three-6s-in-three-six-sided-dice-rolls"><span class="header-section-number">3.1.4</span> What is the probability of either flipping two heads in two coin tosses or rolling three 6s in three six-sided dice rolls?</h3>
 <div class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>p_heads <span class="op">=</span> Rational(<span class="dv">1</span>,<span class="dv">2</span>)</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>p_two_heads <span class="op">=</span> p_heads <span class="op">**</span> <span class="dv">2</span></span>
@@ -244,6 +257,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
