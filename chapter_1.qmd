@@ -4,15 +4,15 @@
 
 1.  Rewrite the following statements as equations using the mathematical notation you learned in this chapter:
 
-> • The probability of rain is low
+> The probability of rain is low
 
 $P(rain) = low$
 
-> • The probability of rain given that it is cloudy is high
+> The probability of rain given that it is cloudy is high
 
 $P(rain|cloud) = high$
 
-> • The probability of you having an umbrella given it is raining is much greater than the probability of you having an umbrella in general.
+> The probability of you having an umbrella given it is raining is much greater than the probability of you having an umbrella in general.
 
 $P(umbrella|rain) >> P(umbrella)$
 
