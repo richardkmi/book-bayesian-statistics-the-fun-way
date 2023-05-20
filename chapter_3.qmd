@@ -42,7 +42,7 @@ p_three_six = p_six ** 3
 p_three_six_or_two_heads = p_two_heads + p_three_six
 p_three_six_and_two_heads = p_two_heads * p_three_six
 
-round(p_three_six_or_two_heads - p_three_six_and_two_heads,2)
+round(p_three_six_or_two_heads - p_three_six_and_two_heads,4)
 
 
 ```
