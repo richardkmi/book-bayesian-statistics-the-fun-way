@@ -36,6 +36,7 @@ p = 1/13 # probability of success
 probability = binomial_probability(n, k, p)
 print(probability)
 print(1/32000 - probability)
+
 ```
 
 ### When you're searching for a new job, it's always helpful to have more than one offer on the table so you can use it in negotiations. If you have a 1/5 probability of receiving a job offer when you interview, and you interview with seven companies in a month, what is the probability you'll have at least two competing offers by the end of that month?
