@@ -21,24 +21,54 @@ binomial(5,1)
 
 ### For the example in question 2, what is the probability of pulling five aces in 10 pulls (remember the card is shuffled back in the deck when it is pulled)?
 
+```{r}
+
+pbinom(q=5, size=10, prob=1/13,lower.tail=FALSE)
+```
+
 ```{python}
-from sympy import binomial
+from scipy.stats import binom
 
-def binomial_probability(n, k, p):
-    q = 1 - p  # probability of failure
-    pmf = binomial(n, k) * p**k * q**(n-k)  # binomial distribution PMF
-    return pmf
-
-n = 10 # number of trials
-k = 5   # number of successes
-p = 1/13 # probability of success
-
-probability = binomial_probability(n, k, p)
-print(probability)
-print(1/32000 - probability)
-
+# Calculate binomial probability using survival function (equivalent to lower.tail = FALSE)
+binom.sf(5, 10, 1/13 )
 ```
 
 ### When you're searching for a new job, it's always helpful to have more than one offer on the table so you can use it in negotiations. If you have a 1/5 probability of receiving a job offer when you interview, and you interview with seven companies in a month, what is the probability you'll have at least two competing offers by the end of that month?
 
+```{r}
+
+pbinom(q=1, size=7, prob=1/5, lower.tail=FALSE)
+
+```
+
+```{python}
+from scipy.stats import binom
+
+binom.sf(1, 7, 1/5)
+
+
+
+```
+
 ### You get a bunch of recruiter emails and find out you have 25 interviews lined up in the next month. Unfortunately, you know this will leave you exhausted, and the probability of getting an offer will drop to 1/10 if you're tired. You really don't want to go on this many interviews unless you are at least twice as likely to get at least two competing offers. Are you more likely to get at least two offers if you go for 25 interviews, or stick to just 7?
+
+```{r}
+
+interviews_25 = pbinom(1, 25,1/10, lower.tail = FALSE)
+interviews_7 = pbinom(1, 7,1/5, lower.tail = FALSE)
+interviews_25 / interviews_7
+interviews_25 / interviews_7 >= 2
+```
+
+```{python}
+from scipy.stats import binom
+
+prob_25 = binom.sf(1, 25, 1/10)
+prob_7 = binom.sf(1, 7,  1/5)
+
+# Calculate the ratio and check if it is greater than or equal to 2
+print(prob_25 / prob_7)
+print(prob_25 / prob_7 >= 2)
+
+
+```
