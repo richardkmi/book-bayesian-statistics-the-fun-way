@@ -1,0 +1,106 @@
+# Beta Distribution
+
+## Questions
+
+### You want to use the beta distribution to determine whether or not a coin you have is a fair coin---meaning that the coin gives you heads and tails equally. You flip the coin 10 times and get 4 heads and 6 tails. Using the beta distribution, what is the probability that the coin will land on heads more than 60 percent of the time?
+
+```{python}
+
+import scipy.stats as stats
+
+# parameters for the Beta distribution
+alpha = 5
+beta = 7
+
+# calculate the probability that p > 0.6
+1 - stats.beta.cdf(0.6, alpha, beta)
+```
+
+```{python}
+
+from sympy import symbols, integrate
+from sympy.stats import Beta, density
+
+# symbols
+p = symbols('p')
+
+# parameters for the Beta distribution
+alpha = 5
+beta = 7
+
+# create the Beta random variable
+X = Beta('X', alpha, beta)
+
+# calculate the probability that p > 0.6
+prob = integrate(density(X)(p), (p, 0.6, 1))
+
+# compute and print the result
+prob.evalf()
+```
+
+```{r}
+
+# Parameters for the Beta distribution
+alpha <- 5
+beta <- 7
+
+# Function representing the Beta distribution
+f <- function(p) {dbeta(p, shape1 = alpha, shape2 = beta)}
+
+# Integrate the function from 0.6 to 1 (the probability of p > 0.6)
+integrate(f, lower = 0.6, upper = 1)
+```
+
+### You flip the coin 10 more times and now have 9 heads and 11 tails total. What is the probability that the coin is fair, using our definition of fair, give or take 5 percent?
+
+```{python}
+
+import scipy.stats as stats
+
+# parameters for the Beta distribution
+alpha = 10
+beta = 12
+
+# calculate the probability that p is between 0.45 and 0.55
+stats.beta.cdf(0.55, alpha, beta) - stats.beta.cdf(0.45, alpha, beta)
+```
+
+```{r}
+
+# Parameters for the Beta distribution
+alpha <- 10
+beta <- 12
+
+# Function representing the Beta distribution
+f <- function(p) {dbeta(p, shape1 = alpha, shape2 = beta)}
+
+# Integrate the function from 0.45 to 0.55 (the probability of 0.45 < p < 0.55)
+integrate(f, lower = 0.45, upper = 0.55)
+```
+
+### Data is the best way to become more confident in your assertions. You flip the coin 200 more times and end up with 109 heads and 111 tails. Now what is the probability that the coin is fair, give or take 5 percent?
+
+```{python}
+
+import scipy.stats as stats
+
+# parameters for the Beta distribution
+alpha = 110
+beta = 112
+
+# calculate the probability that p is between 0.45 and 0.55
+stats.beta.cdf(0.55, alpha, beta) - stats.beta.cdf(0.45, alpha, beta)
+```
+
+```{r}
+
+# Parameters for the Beta distribution
+alpha <- 110
+beta <- 112
+
+# Function representing the Beta distribution
+f <- function(p) {dbeta(p, shape1 = alpha, shape2 = beta)}
+
+# Integrate the function from 0.45 to 0.55 (the probability of 0.45 < p < 0.55)
+integrate(f, lower = 0.45, upper = 0.55)
+```
