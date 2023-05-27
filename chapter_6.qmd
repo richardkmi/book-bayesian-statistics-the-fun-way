@@ -1,0 +1,36 @@
+# Conditional Probability
+
+## Questions
+
+### What piece of information would we need in order to use Bayes' theorem to determine the probability that someone in 2010 who had GBS also had the flu vaccine that year?
+
+$$
+P(GBS | \text{flu vaccine}) = 
+\frac{P(flu\ vaccine) \times P(GBS | flu\ vaccine)}{P(GBS)}
+$$
+
+We need:
+
+-   $P(GBS)$
+
+-   $P(flu\ vaccine)$
+
+### What is the probability that a random person picked from the population is female and is not color blind?
+
+$P(female) = 0.5$
+
+$P(color\ blind|female) = .005$
+
+$P(\text{female, but not color blind}) = P(female) \times1 - P(color\ blind | female) = 0.5\times0.995=0.4975$
+
+### What is the probability that a male who received the flu vaccine in 2010 is either color blind or has GBS?
+
+$P(A)=P(\text{color blind} | male)= \frac{4}{1,000}$
+
+$P(B) = P(GBS|\text{flu vaccine})=\frac{3}{100,000}$
+
+Sum Rule:
+
+$P(A\text{ or }B)=P(A)+P(B)-P(A)\times P(B|A)$
+
+$\frac{100,747}{25,000,000} = .00403$
