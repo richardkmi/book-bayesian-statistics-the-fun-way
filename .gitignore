@@ -4,3 +4,4 @@ docs/Bayesian-Statistics-The-Fun-Way.pdf
 /.quarto/
 /.Rproj.user/
 .quarto/preview/lock
+.DS_Store
