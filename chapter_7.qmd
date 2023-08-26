@@ -1,8 +1,19 @@
-# Conditional Probability
+# Bayes' Theorem with LEGO
 
 ## Questions
 
-### Kansas City, despite its name, sits on the border of two US states: Missouri and Kansas. The Kansas City metropolitan area consists of 15 counties, 9 in Missouri and 6 in Kansas. The entire state of Kansas has 105 counties and Missouri has 114. Use Bayes' theorem to calculate the probability that a relative who just moved to a county in the Kansas City metropolitan area also lives in a county in Kansas. Make sure to show P(Kansas) (assuming your relative either lives in Kansas or Missouri), P(Kansas City metropolitan area), and P(Kansas City metropolitan area \| Kansas).
+### Use Bayes' theorem to calculate the probability that a relative who just moved to a county in the Kansas City metropolitan area also lives in a county in Kansas. 
+
+-   Kansas City, despite its name, sits on the border of two US states: Missouri and Kansas
+
+```{=html}
+<!-- -->
+```
+-   The Kansas City metropolitan area consists of 15 counties, 9 in Missouri and 6 in Kansas.
+
+-   The entire state of Kansas has 105 counties and Missouri has 114.
+
+    ### 
 
 $$
 P(Kansas | Kansas City) = \frac{P(Kansas) \times P(Kansas City| Kansas)}{P(Kansas City)} \\
