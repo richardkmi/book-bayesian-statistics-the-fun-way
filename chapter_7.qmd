@@ -9,11 +9,11 @@ P(GBS | \text{flu vaccine}) =
 \frac{P(flu\ vaccine) \times P(GBS | flu\ vaccine)}{P(GBS)}
 $$
 
+We need:
+
 -   $P(GBS)$
 
 -   $P(flu\ vaccine)$
-
--   $P(GBS | flu\ vaccine)$
 
 ### What is the probability that a random person picked from the population is female and is not color blind?
 
